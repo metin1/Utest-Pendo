@@ -1,0 +1,67 @@
+{
+  "name": "expo-rnn-starter",
+  "version": "4.0.0",
+  "description": "👽 Expo + React Native Navigation starter with Unimodules & Expo-Updates preconfigured and ready to use!",
+  "license": "MIT",
+  "author": "Batyr Kanzitdinov <say_hi@batyr.io>",
+  "homepage": "https://github.com/kanzitelli/expo-rnn-starter",
+  "scripts": {
+    "android": "npx react-native run-android",
+    "ios": "npx react-native run-ios",
+    "ios:pods": "npx pod-install",
+    "start": "npx react-native start",
+    "test": "jest",
+    "release": "dotenv npx release-it"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.11.0",
+    "expo": "^38.0.9",
+    "expo-network": "~2.2.1",
+    "expo-updates": "^0.2.14",
+    "lodash": "^4.17.19",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.5",
+    "mobx-state-tree": "^3.17.2",
+    "react": "16.13.1",
+    "react-native": "^0.63.2",
+    "react-native-gesture-handler": "^1.7.0",
+    "react-native-navigation": "^6.11.0",
+    "react-native-navigation-hooks": "^6.0.2",
+    "react-native-unimodules": "^0.10.1",
+    "react-native-vector-icons": "^7.0.0",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3",
+    "rn-applause": "^2.0.1-Beta"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/runtime": "^7.11.0",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^26.0.8",
+    "@types/lodash": "^4.14.158",
+    "@types/react-native": "^0.63.4",
+    "@types/react-native-vector-icons": "^6.4.5",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-test-renderer": "^16.9.2",
+    "babel-jest": "^26.2.2",
+    "dotenv-cli": "^3.2.0",
+    "jest": "^26.2.2",
+    "metro-react-native-babel-preset": "^0.61.0",
+    "react-test-renderer": "^16.13.1",
+    "tslint": "^6.1.3",
+    "typescript": "^3.9.7"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
